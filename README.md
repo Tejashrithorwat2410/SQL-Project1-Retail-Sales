@@ -1,1 +1,0 @@
-# SQL-Project1-Retail-Sales
