@@ -71,7 +71,7 @@ SELECT COUNT(DISTINCT category) AS [NO of Categories] FROM [dbo].[Retail Sales];
 SELECT * FROM [dbo].[Retail Sales] WHERE sale_date = '2022-11-05';
 ```
 
-### Q2. Clothing Sales with Quantity ≥ 4 in Nov-2022
+### Q2. Clothing Sales with Quantity greater than equal to 4 in Nov-2022
 ```sql
 SELECT *
 FROM [dbo].[Retail Sales]
@@ -93,7 +93,7 @@ FROM [dbo].[Retail Sales]
 WHERE category = 'Beauty';
 ```
 
-### Q5. Transactions with Sales > ₹1000
+### Q5. Transactions with Sales more than ₹1000
 ```sql
 SELECT *
 FROM [dbo].[Retail Sales]
